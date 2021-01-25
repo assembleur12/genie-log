@@ -17,4 +17,4 @@ Fonctionnalités proposées
 
 * Réservation/Annulation de réservation/Liste des réservation
 
-* Backoffice : CRUD des entités du projet
+* Backoffice : CRUD des entités du  projet

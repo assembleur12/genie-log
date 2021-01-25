@@ -1,4 +1,4 @@
-# HébéDédé #
+# MarouaUma #
 
 Application Java en console pour la gestion des réservations de produits par les clients d'un magasin qui propose des BDs à la vente.
 

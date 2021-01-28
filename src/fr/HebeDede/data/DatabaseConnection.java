@@ -16,7 +16,7 @@ public class DatabaseConnection {
 				} catch (ClassNotFoundException e) {
 					e.printStackTrace();
 				}
-				connect = DriverManager.getConnection("jdbc:mysql://localhost:3306/HebeDede", "root", "root");
+				connect = DriverManager.getConnection("jdbc:mysql://localhost:3306/HebeDede", "root", "");
 			} catch (SQLException e) {
 				e.printStackTrace();
 			}

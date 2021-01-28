@@ -12,12 +12,12 @@ public class ConsoleUtilisateur {
 	public static UtilisateurDAO userDAO = new UtilisateurDAO();
 
 	public static void promptConsulterUtilisateur(Utilisateur user) {
-		ConsoleService.affiche("\n******* Mon compte utilisateur *******\n");
+		ConsoleService.affiche("\n ******* Mon compte utilisateur ******* \n");
 		ConsoleService.affiche("Utilisateur n°" + user.getIdUtilisateur() + 
 				" - Username : " + user.getUsername() + 
 				" - " + user.getRole());
 		
-		ConsoleService.affiche("\nMenu :");
+		ConsoleService.affiche("\n Menu :");
 		ConsoleService.affiche("1. Modifier compte");
 		ConsoleService.affiche("2. Supprimer compte");
 		
@@ -105,7 +105,7 @@ public class ConsoleUtilisateur {
 			ConsoleService.sleep(3000);
 		}
 		else {
-			ConsoleService.affiche("Retour au menu principal...");
+			ConsoleService.affiche(" Retour au menu principal... ");
 			ConsoleService.sleep(3000);
 		}
 		Console.promptMenu();

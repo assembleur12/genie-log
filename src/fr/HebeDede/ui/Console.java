@@ -49,7 +49,7 @@ public class Console {
 	}
 
 	public static void promptMenu() {
-		ConsoleService.affiche("\n******* Site Web d'HébéDédé *******\n\nMenu principal :");
+		ConsoleService.affiche("\n******* Site Web MarouaUma *******\n\n Menu principal :");
 		
 		ConsoleService.affiche("1. Recherche/Liste des articles\n");
 		Integer choice = 0;
@@ -102,7 +102,7 @@ public class Console {
 	    			closeApp();
 	    			break;
 	    		default:
-	    			ConsoleService.affiche("\nChoix incorrect.");
+	    			ConsoleService.affiche("\n Choix incorrect.");
 	    			promptMenu();
 					break;
 	    	}
@@ -138,7 +138,7 @@ public class Console {
 	    			closeApp();
 	    			break;
 	    		default:
-	    			ConsoleService.affiche("\nChoix incorrect.");
+	    			ConsoleService.affiche("\n Choix incorrect.");
 	    			promptMenu();
 					break;
 			}

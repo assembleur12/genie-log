@@ -11,4 +11,9 @@ RESUME DE L'EVALUATION DE NOTRE PROJET
 -Nous avons evalué notre projet avec l'outil Jarchitect
   - #LOC : 1400
   - #Pakages : 8
+  - #Types(classes): 23
   - #Methodes : 144
+  - #Field : 47
+      Le package .ui a (#LOC :613; #Methods:26 ;#Field :8; #Types(Classes) :4; #Packages used :8; #Packages using me:2 ;  )
+         la classe ConsoleArticle de .ui a :(LOC:330; Cyclomatic coplexity: 102 ; ByteCode Cyclomatic coplexity:12; #Methods:12; Field:3;Classe using me:2;Classe used:15; LCOM:0)
+          
